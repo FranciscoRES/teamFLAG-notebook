@@ -11,5 +11,6 @@ class FeatureExtractor(TransformerMixin):
 
     def transform(self, X_df):
         X_df['yyyymm'] -= X_df['yyyymm'][0]
-        X_df['yyyymm'] /= X_df['yyyymm'].iget(-1)
+        X_df['yyyymm'] /= X_df['yyyymm'].iat[-1]
+        X_df = X_df.replace(',','')
         return X_df.values
