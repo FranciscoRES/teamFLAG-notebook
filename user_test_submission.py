@@ -14,6 +14,7 @@ if __name__ == '__main__':
 #        'target.dta', dtype=bytes, delimiter=';').astype(str)
 #        X_df = df.drop(target_cols, axis=1)
     y_array = pd.read_csv('Data/IndexTrain.csv', thousands = ',')['INDEX']
+    #Watch out for ',' thousand separators!
 
     skf = ShuffleSplit(n_splits=2, test_size=0.5, random_state=67)
     print('Training file ...')
