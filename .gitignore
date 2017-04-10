@@ -1,2 +1,6 @@
 # Jupyter Notebook
 .ipynb_checkpoints
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
