@@ -1,0 +1,16 @@
+,Feature_name,Feature_definition
+0,yyyymm,year and month of the concerned part of the data.
+1,MD,monthly dividend paid.
+2,D12,12-month moving sum of dividends.
+3,E12,12-month moving sum of earnings.
+4,B/M,ratio of the accounting book value to the market price.
+5,TBL,interest rate on a three-month Treasury bill (secondary market).
+6,AAA,AAA-rated corporate bond yield.
+7,BAA,BAA-rated corporate bond yield.
+8,LTY,long-term government bond yield.
+9,NTIS,ratio of the 12-month moving sum of net equity issues to the total end-of-year market capitalization of the market.
+10,RFREE,risk free rate.
+11,INFL,inflation (calculated from the CPI of all urban consumers).
+12,LTR,return on long-term government bonds.
+13,CORPR,long-term corporate bond return.
+14,SVAR,monthly sum of squared daily returns.
